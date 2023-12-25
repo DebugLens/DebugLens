@@ -17,7 +17,11 @@
         "command": "debuglens.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "activityBar": {
+      "viewlet": "debuglens-icon.png", 
+      "name": "DebugLens"
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
